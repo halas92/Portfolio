@@ -53,6 +53,7 @@ li.nav-icon {list-style: none;}
 a.icon-link:hover, a.nav-link:hover, a.navbar-title {color: #21438a;}
 i.fas.fa-home::before {}
 i.fas.fa-tablet-alt::before {}
+i.far-fa-newspaper::before {font-size: 125%;}
 li.nav-title {margin: 0 auto; list-style: none;}
 .nav-link, li.nav-item {font-size: 1em; color: black; font-family: 'Proxima Nova,' 'Noto Sans', 'Helvetica', sans-serif; list-style: none;}
 
