@@ -27,6 +27,7 @@
     .photos, #photo1, #photo2, #photo3, #photo4 {margin: 0 auto; width: 100%; height: auto;}
     a.nav-link, li.nav-item {display: none;}
     a.navbar-title {font-size: 14px;}
+    i.fas.fa-chevron-circle-down::before {margin-right: 8px;}
     i.fas.fa-home::before {margin-right: 10px;}
     button.menu-bars {margin-left: 0px; display: inline-block;}
     button.contact {margin-left: auto; margin-right: 15px;}
