@@ -29,8 +29,8 @@
     .hero-intro, p#hero-title.title {font-size: 1.25em;}
     p#hero-sub.subtitle, .hero-footer {font-size: .75em;}
     p.hero-footer {padding-left: 15px; padding-right: 15px;}
-    p.hero-text {font-size: 1em; bottom: 45%;}
-    #reporting-text, #design-text {bottom: 54%;}
+    p.hero-text {font-size: 1em; bottom: 42%;}
+    #reporting-text, #design-text {bottom: 42%;}
     #reporting-footer, #design-footer {bottom: 6%;}
     .clips-container {left: 5%; bottom: 15%;}
     .stories, .digital {width: 40%;}
