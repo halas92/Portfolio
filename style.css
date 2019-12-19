@@ -3,6 +3,7 @@
     .hero-intro, p#hero-title.title {font-size: 1.5em;}
     p#hero-sub.subtitle, {font-size: 1em;}
     p.hero-text {font-size: 1.5em; bottom: 45%;}
+    p.icon-subtitle {font-size: 10px;}
     .clips-container {left: 5%; bottom: 15%;}
     .stories, .digital {width: 30%;}
     .story-photos {width: 70%;}
@@ -28,6 +29,7 @@
     .hero-container {overflow-x: hidden;}
     .hero-intro, p#hero-title.title {font-size: 1.25em;}
     p#hero-sub.subtitle, .hero-footer {font-size: .75em;}
+    p.icon-subtitle {font-size: .5em;}
     p.hero-footer {padding-left: 15px; padding-right: 15px;}
     p.hero-text {font-size: 1em; bottom: 42%;}
     #reporting-text, #design-text {bottom: 42%;}
@@ -38,6 +40,7 @@
     a.headline-links {font-size: 14px; line-height: 140%;}
     p.byline {font-size: 10px;}
     p.story-intro {font-size: 12px; line-height: 140%;}
+    #about-intro {top: 2%;}
     #bio {margin-left: 15px; margin-right: 15px; top: 25%;}
     #portrait-photo {width: 30%; margin-bottom: 10px;}
     #footer {font-size: 10px;}
@@ -49,6 +52,7 @@
 @media only screen and (max-width: 400px) {p#hero-title.title {font-size: 1em;}
   .hero-intro {font-size: 1em; margin-bottom: 10px; background-color: rgb(0,0,0, 0.7);}
   .clips-container {left: 5%; bottom: 13%;}
+  p.icon-subtitle {font-size: .5em;}
   .stories, .digital {width: 50%;}
   .story-photos {width: 100%;}
   a.headline-links {font-size: 12px; line-height: 120%;}
@@ -61,7 +65,7 @@
   p.summary {font-size: 10px; line-height: 110%; display: block;}
   p.hero-text {font-size: .75em; bottom: 45%; background-color: rgb(0,0,0, 0.7);}
   #portrait-photo {width: 25%; margin-bottom: 5px;}
-  #about-intro {top: -1%;}
+  #about-intro {top: -3%;}
   #footer {font-size: 8px;}}
 
 /*General characteristics*/
@@ -77,6 +81,7 @@ body::-webkit-scrollbar {display: none;}
 p {text-align:left; line-height: 150%; font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans', Arial, sans-serif; font-size: 15px;}
 p.hero-text, p.hero-footer {font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans', Arial, sans-serif; text-shadow: 1px 1px black;}
 p.hero-text {position: absolute; color: white; font-weight: 600; padding-left: 15px; background-color: rgb(55,54,53,0.7); padding-right: 15px; width: 100%; white-space: normal;}
+p.icon-subtitle {font-weight: 600;}
 p.hero-footer {position: absolute; bottom: 4%; color: white; font-weight: 500; margin: 0 auto; width: 100%; text-align: center; width: 100%; white-space: normal;}
 p.first-letter {font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans', Arial, sans-serif; background: #21438a; color: white; font-weight: 400; display: inline;}
 p.first-line {font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans', Arial, sans-serif; text-transform: uppercase; font-weight: bold; display: inline; margin-bottom: 0px;}
@@ -95,6 +100,7 @@ a.arrow-previous {transition: .5s;}
 a.arrow-previous:hover {font-size: 150% !important; transition: .5s; cursor: pointer;}
 a.arrow-next {transition: .5s;}
 a.arrow-next:hover {font-size: 150% !important; transition: .5s; cursor: pointer;}
+a.icon-sub-link:hover {text-decoration: none; color: #21438a;}
 a#reporting-link, a#design-link {color: white; text-decoration: underline;}
 a.headline-links {color: white;}
 a.contact-links {display: inline;}
@@ -112,6 +118,7 @@ i.fas.fa-mobile-alt::before {margin-right: 5px;}
 #about-intro {background-color: white;}
 #bio {display: block; position: absolute; white-space: normal;}
 .hero-intro {position: absolute; top: 5%; display: block; width: 100%; background-color: rgb(255,255,255,0.7); padding-left: 15px;}
+.icon-links {display: inline-block; text-align: center;}
 .hero-container {display: inline-block; position: relative; width: 100%; height: 100vh; background-repeat: no-repeat; margin: 0 auto; background-position: center; background-size: cover; max-width: 100%;}
 .clips-container {width: 90%; height: 37%; background-color: rgb(55,54,53,0.7); position: absolute; background-position: center; overflow-y: hidden; overflow-x: scroll; text-align: center; display: none;}
 .clips-container::-webkit-scrollbar {display: none;}
