@@ -9,7 +9,8 @@
     p.hero-header {font-size: 1.5em;}
     p.hero-subtitle {font-size: 1em;}
     p.hero-footer {font-size: 1em; padding-left: 30px; padding-right: 30px;}
-    .title {font-size: 48px; padding-top: 45px;}}
+    .title {font-size: 48px; padding-top: 45px;}
+    a.home-arrow {}}
 
 /*Responsive styling for medium-width viewports*/
 @media only screen and (max-width: 600px) {
@@ -29,6 +30,7 @@
     a.navbar-title {font-size: 14px;}
     i.fas.fa-chevron-circle-down::before {margin-right: 8px;}
     i.fas.fa-home::before {margin-right: 10px;}
+    a.home-arrow {}
     button.menu-bars {margin-left: 0px; display: inline-block;}
     button.contact {margin-left: auto; margin-right: 15px;}
     #story1, #story2 {border-bottom: 1px solid #e2e2e2;}
@@ -41,6 +43,7 @@
   p.byline {font-size: 8px;}
   p.hero-footer {padding-left: 15px; padding-right: 15px; font-size: .75em;}
   p.summary {font-size: 10px; line-height: 125%; display: block;}
+  a.home-arrow {}
   .headline {font-size: 20px; line-height: 120%;}}
 
 /*General characteristics*/
@@ -58,17 +61,21 @@ a.navbar-title {display: inline-block; border-radius: 3px; color: black; font-fa
 a.icon-link, a.navbar-title {list-style: none;}
 a#home-link {color: white;}
 a.headline-link:hover, a.byline-link:hover {color: black;}
-a.nav-icon:hover {font-size: 150%; transition: .5s;}
+a.nav-icon:hover, a.home-arrow:hover {font-size: 150%; transition: .5s;}
 li.nav-icon {list-style: none;}
-a.icon-link:hover, a.nav-link:hover, a.navbar-title {color: #21438a;}
+a.icon-link:hover, a.nav-link:hover, a.navbar-title, {color: #21438a;}
+a.home-arrow {position: inherit;}
 i.fas.fa-home::before {}
 i.fas.fa-tablet-alt::before {}
 i.far-fa-newspaper::before {font-size: 125%;}
 li.nav-title {margin: 0 auto; list-style: none;}
-.nav-link, li.nav-item {font-size: 1em; color: black; font-family: 'Proxima Nova,' 'Noto Sans', 'Helvetica', sans-serif; list-style: none;}
+.nav-link, li.nav-item {font-size: 1em; color: black; font-family: 'Proxima Nova', 'Noto Sans', 'Helvetica', sans-serif; list-style: none;}
+.pagination {display: inline; font-family: 'Proxima Nova,' 'Noto Sans', 'Helvetica', sans-serif;}
+.pagination a {color: black; float: left; padding: 8px 16px; text-decoration: none; font-family: 'Proxima Nova', 'Open Sans', 'Helvetica', arial, sans-serif; font-size: 16px; font-weight: 400;}
+.pagination a:hover {font-size: 150%; transition: .5s; color: #21438a; font-weight: 600;}
 
 /*Text, titles, subheadings, etc*/
-p {text-align:left; line-height: 150%; font-family: 'Libre Baskerville', 'Georgia', 'Times New Roman', serif; font-size: 15px;}
+p {text-align:left; line-height: 150%; font-family: 'baskerville-display-pt', 'Georgia', 'Times New Roman', serif; font-size: 15px;}
 p.hero-header {font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans', Arial, sans-serif; font-weight: bold; margin-bottom: 0px;}
 p.hero-subtitle {font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans', Arial, sans-serif; font-weight: bold;}
 p.hero-text, p.hero-footer {font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans', Arial, sans-serif; text-shadow: 1px 1px black;}
@@ -78,7 +85,7 @@ p.hero-footer {position: absolute; bottom: 4%; color: white; font-weight: 500; m
 .headline {font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans','Helvetica', arial, sans-serif; font-weight: 500; color: black; text-align: left; margin: 0 auto; padding-bottom: 5px;}
 .byline {font-size: 10px; font-weight: 500; font-family: 'Noto Sans', 'Open Sans', 'Helvetica', arial, sans-serif; color: rgb(179, 179, 179); margin: 0 auto; padding-bottom: 10px;}
 .caption {font-size: 10px; font-weight: 500; font-family: 'Noto Sans', 'Open Sans', 'Helvetica', arial, sans-serif; margin: 0 auto; color: rgb(179, 179, 179); text-align: left;}
-p.summary {margin-bottom: 5px; font-size: 14px;}
+p.summary {font-family: 'baskerville-display-pt', 'Georgia'; margin-bottom: 5px; font-size: 14px;}
 
 /*Containers, etc.*/
 #reporting-hero {background-image: url("images/rotunda1.jpg");}
@@ -88,7 +95,9 @@ p.summary {margin-bottom: 5px; font-size: 14px;}
 .body-column {max-width: 600px; min-width: 200px; margin: 0 auto;}
 .hero-intro {position: inherit; margin-top: 10%; display: block; width: 100%; background-color: rgb(255,255,255,0.7); padding-left: 15px;}
 #story1, #story2, #story3, {padding-right: 15px;}
-.stories, #story1, #story2, #story3, #story4, #story5, #story6, #story7, #digital1, #digital2, #digital3, #digital4 {border-bottom: 1px solid  #2e2d2d; padding-bottom: 10px;}
+.stories, #story1, #story2, #story3, #story4, #story5, #story6, #story7, #digital1, #digital2, #digital3, #digital4, #digital5 {border-bottom: 1px solid  #2e2d2d; padding-bottom: 10px;}
+#story10, #digital5 {margin-bottom: 30px;}
+.end-links {width: 100%; margin: 0 auto; height: auto; display: block; margin-bottom: 30px; text-align: right; padding-right: 5%;}
 #footer {width: 100%; margin: 0 auto; background-color: black; height: 85px; font-size: 12px; color: white; font-family: 'Helvetica', 'Arial', sans-serif; display: block; margin-top: 30px; text-align: center;}
 #photo1, #photo2, #photo3, #photo4, #photo5 {width: 100%;}
 .photos {text-align: right; margin: 0 auto; margin-top: 30px; display: inline-block;}
