@@ -81,7 +81,7 @@ li.nav-title {margin: 0 auto; list-style: none;}
 p {text-align:left; line-height: 150%; font-family: 'baskerville-display-pt', 'Georgia', 'Times New Roman', serif; font-size: 15px;}
 p.hero-header {font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans', Arial, sans-serif; font-weight: bold; margin-bottom: 0px;}
 p.hero-subtitle {font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans', Arial, sans-serif; font-weight: bold;}
-p.hero-text, p.hero-footer {font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans', Arial, sans-serif; text-shadow: 1px 1px black; background-color: rgb(55,54,53,0.7)}
+p.hero-text, p.hero-footer {font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans', Arial, sans-serif; text-shadow: 1px 1px black; background-color: rgba(55,54,53,0.7)}
 p.icon-subtitle {font-weight: 600; font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans', Arial, sans-serif;}
 p.hero-footer {position: absolute; bottom: 4%; color: white; font-weight: 500; margin: 0 auto; width: 100%; text-align: center; white-space: normal;}
 .title {font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans','Helvetica', arial, sans-serif; font-weight: 700; color: black; line-height: 48px; margin-bottom: 15px; text-align: center;}
