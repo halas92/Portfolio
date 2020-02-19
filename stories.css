@@ -1,0 +1,35 @@
+/*Responsiveness for large, desktop-size viewports*/
+@media only screen and (min-width: 768px) {.navbar-collapse.collapse {display: inline!important; margin-top: 8px;}
+.nav-title {}
+.navbar-inverse {display: flex;}
+a.navbar-brand {display: inline!important; margin-left: 0px!important;}
+.navbar>.container-fluid.navbar-brand {margin-left: 0px;}
+.navbar-nav>li>a {display: inline;}
+.nav-title {margin-top: 0%;}}
+
+/*Responsiveness for mid-size viewports*/
+@media only screen and (max-width: 768px) {.navbar-inverse {display: flex;}
+.navbar-toggle {margin-left: 15px;}
+.nav-title {margin: auto;}}
+@media only screen and (max-width: 600px) {}
+
+/*Responsiveness for mobile and smallest viewports*/
+@media only screen and (max-width: 400px) {}
+
+.navbar {font-family: 'Proxima Nova', 'Noto Sans', 'Helvetica', 'Montserrat', sans-serif; background-color: inherit; color: black; border-bottom: 1px solid #bfbfbf; position: relative; min-height: 40px;}
+.navbar-inverse {width: 100%; border-radius: 0px; border-top: 0px; border-right: 0px; border-left: 0px;}
+.navbar-inverse, .navbar-brand, a.navbar-brand, .navbar-nav>li>a {color: black!important;}
+li.nav-icon, a.icon-link {color: black!important;}
+.nav-link {font-weight: 500;}
+.navbar-brand {color: black; font-weight: 700; float: none; margin: 0 auto; margin-left: auto; padding: 0px; height: auto;}
+.narbar-brand:hover {color: #21438a;}
+.nav-title {margin: auto; list-style: none;}
+.navbar-toggle {border: 1px solid #bfbfbf!important;}
+.navbar-collapse {}
+.icon-bar {background-color: #333!important;}
+
+a {color: black; background-color: inherit;}
+a:hover {color: #21438a;}
+a.nav-link, a.navbar-brand, .navbar-nav>li>a, .navbar-nav>li, .nav-icon, .icon-link {color: black!important;}
+a.nav-link:hover, a.navbar-brand:hover, .navbar-nav>li>a:hover {color: #21438a!important;}
+.navbar-toggle:hover, .navbar-toggle:focus {background-color: transparent!important;}
