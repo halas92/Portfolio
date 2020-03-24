@@ -107,8 +107,8 @@ p.summary {font-family: 'baskerville-display-pt', 'Georgia'; margin-bottom: 5px;
 .body-column {max-width: 600px; min-width: 200px; margin: 0 auto;}
 .hero-intro {position: inherit; margin-top: 10%; display: block; width: 100%; background-color: rgba(255,255,255,0.7); padding-left: 15px;}
 #story1, #story2, #story3, {padding-right: 15px;}
-.stories, #story1, #story2, #story3, #story4, #story5, #story6, #story7, #digital1, #digital2, #digital3, #digital4, #digital5 {border-bottom: 1px solid  #2e2d2d; padding-bottom: 5%; padding-top: 5%;}
-#story10, #digital5 {margin-bottom: 30px;}
+.stories, .digital {border-bottom: 1px solid  #2e2d2d; padding-bottom: 5%; padding-top: 5%;}
+#final-post {margin-bottom: 30px;}
 .end-links {width: 100%; margin: 0 auto; height: auto; display: block; margin-bottom: 30px; text-align: right; padding-right: 5%;}
 #footer {width: 100%; margin: 0 auto; background-color: black; height: 85px; color: white; font-family: 'Helvetica', 'Arial', sans-serif; display: block; margin-top: 30px; padding-left: 2%; padding-right: 2%; text-align: center;}
 #photo1, #photo2, #photo3, #photo4, #photo5 {width: 100%;}
