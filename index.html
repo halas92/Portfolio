@@ -3,24 +3,10 @@
 <html lang="en">
 <head>
 <meta name="viewport" content="width=device-width,
-initial-scale=1, shrink-to-fit=no">
+initial-scale=1.0, shrink-to-fit=no">
 
-<!--Primary Meta Tags-->
-<title>Tracking coronavirus cases in Maryland</title>
-<meta name="title" content="Tracking coronavirus cases in Maryland">
-<meta name="description" content="Data visualizations and reporting on COVID-19 cases in Maryland">
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://halas92.github.io/Coronavirus/">
-<meta property="og:title" content="Tracking coronavirus cases in Maryland">
-<meta property="og:description" content="Data visualizations and reporting on COVID-19 cases in Maryland">
-<meta property="og:image" content="hero-option2.jpg">
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://halas92.github.io/Coronavirus/">
-<meta property="twitter:title" content="Tracking coronavirus cases in Maryland">
-<meta property="twitter:description" content="Data visualizations and reporting on COVID-19 cases in Maryland">
-<meta property="twitter:image" content="hero-option2.jpg">
+<title>Horus Alas - Writer | Reporter | Designer</title>
+<meta name="description" content="Personal site showcasing reporting and digital work">
 
 <!-- JQuery Script -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -31,7 +17,7 @@ initial-scale=1, shrink-to-fit=no">
 <!--Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Open+Sans&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/xhn2xzw.css">
 <!-- Load c3.css -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
 <!-- Load our CSS -->
@@ -40,156 +26,170 @@ initial-scale=1, shrink-to-fit=no">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
 <!--Tab icon-->
-<link rel="shortcut icon" href="logo1.png" type="image/x-icon">
- <link rel="icon" href="logo1.png" type="image/x-icon">
+<link rel="shortcut icon" href="images/new-icon3.jpg" type="image/x-icon">
+<link rel="icon" href="images/new-icon3.jpg" type="image/x-icon">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-inherit">
-    <button class="menu-bars" onclick="toggleSidebar()" style="display: none;"><a class="nav-button" href="#"><span><i class="fas fa-bars"></i></span></a></button>
-      <div id="sidebar">
-  <ul>
-  <li>Reporting</li>
-  <li>Design</li>
-  <li>Contact</li>
-</ul></div>
-<li class="nav-icon">
-<a class="icon-link" href="https://halas92.github.io/Portfolio/"><i class="fas fa-home"></i></a>
-</li>
-<li class="nav-icon">
-<a class="icon-link" href="https://halas92.github.io/Portfolio/design.html"><i class="fas fa-tablet-alt"></i></a>
-</li>
- <li class="nav-title">
- <a class="navbar-title" href="https://halas92.github.io/Coronavirus/" style="margin: 0 auto;">TRACKING THE CORONAVIRUS PANDEMIC IN MARYLAND</a>
-</li>
-</nav>
+
 
 <script type="text/javascript">
 function toggleSidebar(){document.getElementById("sidebar").classList.toggle('active');}
 </script>
 
-<!--Start Hero container-->
-<div class="hero-container">
-<div class="hero-slide">
-<div id="header">As coronavirus spreads, Maryland grinds to a halt</div>
-<div id="subhead">Updates on the diffusion of COVID-19 cases and their effects on daily life in Maryland.</div>
-<div class="fa-link">
-<a href="#intro-section" a id="arrow">
-<i class="fas fa-chevron-circle-down"></i></a>
-</div>
-</div>
-</div>
-<!-- End Hero container; begin main story container -->
-
-<!-- Begin intro -->
+<!-- Begin main container-->
 <div class="container">
-<div id="intro-section">
-<p class="title">Coronavirus radically alters way of life for Marylanders</p>
-<div class="social">
-<a href="https://www.facebook.com/sharer/sharer.php?u=https://halas92.github.io/Coronavirus/" target=_blank class="social-link"><i class="fab fa-facebook"></i></a>
-<a href="https://twitter.com/intent/tweet?text=https://halas92.github.io/Coronavirus/" target=_blank class="social-link"><i class="fab fa-twitter"></i></a>
-<a href="https://www.linkedin.com/shareArticle?mini=true&url=https://halas92.github.io/Coronavirus/&title=&summary=&source=" target=_blank class="social-link"><i class="fab fa-linkedin-in"></i></a></div>
-<div class="byline" style="text-align: left; margin-bottom: 10px;">March 22, 2020 &bull; Graphics, text, digital artwork and design by <a href="https://halas92.github.io/Portfolio/" style="text-decoration: underline;">Horus Alas</a>. <span style="color: rgba(207,0,15);">Updated April 14 at 10:30 a.m.</span></div>
-<!--End intro-->
 
-<!-- Daily update -->
-<p class="summary" style="display: none;"><span style="text-transform: uppercase; font-weight: bold;">March 30 Update:</span> Gov. Larry Hogan issued at <a href="https://governor.maryland.gov/wp-content/uploads/2020/03/Gatherings-FOURTH-AMENDED-3.30.20.pdf" class="graph-link">stay-at-home order</a> effective March 31 at 10:20 p.m. The directive built on his preceding executive orders on social distancing, this time imposing up to one year of imprisonment or a $5,000 fine&mdash;or both&mdash;for individuals found outside their homes for non-essential purposes.</p><!-- End daily update -->
-
-<!-- Begin section 1 -->
-<div id="intro-graph"><p class="first-letter">T</p><p class="first-line" style="text-transform: uppercase; font-weight: bold; display: inline-flex;">he novel Coronavirus now known as COVID-19 </p><p id="first-graph"> originated in Wuhan, China, in December 2019. Officials struggled to implement countermeasures against the disease's contagion and lethality, and within weeks, the coronavirus made its way to the United States. A Washington state man who had been travelling to China became the nation's <a href="https://www.washingtonpost.com/health/2020/01/21/coronavirus-us-case/" class="graph-link">first reported case</a> Jan. 21, 2020. From there, reports of infection continued to rise throughout the country.<br><br></p></div>
-<p class="summary">As of April 14, there are <a href="https://coronavirus.jhu.edu/map.html" class="graph-link">over 1.9 million reported active cases</a> of coronavirus worldwide&mdash;582,634 of those are in the United States. The virus has caused 120,914 deaths globally, and killed 23,649 Americans. There is no vaccine for COVID-19 currently in circulation, and experimental products are likely to <a href="https://www.theguardian.com/world/2020/mar/20/when-will-a-coronavirus-vaccine-be-ready" class="graph-link">undergo months of testing</a> before being cleared for mass distribution.<br><br></p>
-<p class="summary">Maryland reported its <a href="https://www.politico.com/news/2020/03/05/coronavirus-maryland-cases-122587" class="graph-link">first three cases</a>&mdash;all of them residents of Montgomery County&mdash;on March 5. Gov. Larry Hogan immediately <a href="https://www.baltimoresun.com/coronavirus/bs-hs-coronavirus-wrap-up-20200306-ipbh7t5r4zhxpidx3kgeiq3seu-story.html" class="graph-link">declared a state of emergency</a>, with the intent to bolster response collaboration between state and local agencies. The World Health Organization formally <a href="https://www.bbc.com/news/world-51839944" class="graph-link">declared the coronavirus a pandemic</a> March 11.<br><br></p>
-<p class="summary">Data show a rapid increase in the number of positive reported cases of coronavirus in Maryland since it first appeared in the state. The Maryland Department of Health <a href="https://coronavirus.maryland.gov/" class="graph-link">began reporting</a> data on negative tests March 28.<br><br>
-</p> <!-- End section 1 -->
-<p class="pull-quote" style="display: none;">"There are years that ask questions and years that answer."<br>&mdash;Zora Neale Hurston</p>
-</p></div>
-
-<!-- First graphic -->
-<iframe title="Daily reported cases of coronavirus in Maryland" aria-label="Interactive line chart" id="datawrapper-chart-vWvLZ" src="//datawrapper.dwcdn.net/vWvLZ/26/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
-</script><br><br>
-<!-- End first graphic-->
-
-<!-- Begin section 2 -->
-<p class="summary">Maryland reported its <a href="https://www.wbaltv.com/article/governor-larry-hogan-prince-george-s-county-resident-dies-from-coronavirus/31761555" class="graph-link">first death from COVID-19</a>&mdash;a Prince George's County man in his 60s&mdash;March 18. Hogan <a href="https://wtop.com/coronavirus/2020/03/coronavirus-update-latest-developments-in-maryland-dc-and-virginia/" class="graph-link">announced</a> March 20 that a Baltimore County man in his 60s was the state's second confirmed COVID-19 death. Late March 21, a Montgomery County woman in her 40s with an underlying medical condition was declared the state's <a href="https://bethesdamagazine.com/bethesda-beat/coronavirus/first-montgomery-county-resident-dies-of-coronavirus-disease/" class="graph-link">third coronavirus fatality</a>.<br><br>
-The state's Washington suburbs have borne the brunt of the coronavirus outbreak thus far, with Montgomery&mdash;where roughly <a href="https://msa.maryland.gov/msa/mdmanual/01glance/html/pop.html#county" class="graph-link">one sixth of the state's 6 million residents</a> live&mdash;and Prince George's Counties leading the tally for confirmed cases.<br><br>
-Hogan enacted <a href="https://www.marylandmatters.org/2020/03/13/schools-closing-for-2-weeks-as-officials-announce-extraordinary-measures-to-combat-virus/" class="graph-link">a sweeping executive order</a> March 12 that would close public schools statewide, prohibit public gatherings of more than 250 people, close the cruise ship terminal at the Port of Baltimore, and direct "non-essential" state employees to work from home, among other measures. He recommended that private sector employees work from home when possible.<br><br>
-Hogan <a href="https://dbknews.com/2020/03/19/umd-coronavirus-class-online-spring-semester-end-hogan-maryland-usm/" class="graph-link">advised</a> March 19 that the University System of Maryland's Board of Regents switch public colleges and universities to online instruction for the remainder of their semesters. University of Maryland President Wallace Loh <a href="https://dbknews.com/2020/03/19/umd-usm-graduation-cancelled-online-classes-undergraduates-coronavirus-covid19-maryland-college-park/" class="graph-link">announced later that day</a> that the school would hold classes online for the rest of the semester and cancelled in-person spring commencement ceremonies.<br><br>
-Schools throughout Maryland are now expected to be closed through <a href="https://bethesdamagazine.com/bethesda-beat/coronavirus/maryland-schools-to-stay-closed-through-april-24/" class="graph-link">at least April 24</a>. Many school districts are <a href="https://www.baltimoresun.com/coronavirus/bs-md-school-meal-plans-20200313-7jltyv6jcrgzvmin7q7rel4ydy-story.html" class="graph-link">offering meal services</a> amid the closures, and state Superintendent of Schools Karen Salmon said the state could extend the academic year to make up for lost instruction time.</p><br><br> <!-- End section 2 -->
-
-
-<!-- Second graphic -->
-<iframe title="Maryland coronavirus centers by county" aria-label="USA maryland counties Symbol map" id="datawrapper-chart-fG9qd" src="//datawrapper.dwcdn.net/fG9qd/26/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
-</script><br><br>
-<!-- End second graphic -->
-
-<!-- Begin section 3 -->
-<p class="summary">In the first days of the coronavirus' presence in Maryland, President Donald Trump downplayed the risks it posed. In a <a href="https://twitter.com/realDonaldTrump/status/1237027356314869761" class="graph-link">March 9 tweet</a>, he wrote, "So last year 37,000 Americans died from the common Flu... Nothing is shut down, life & the economy go on. At this moment there are 546 confirmed cases of CoronaVirus, with 22 deaths. Think about that!"<br><br>
-And despite swiftly declaring a state of emergency when Maryland's first cases were reported, Hogan initially tried to maintain a veneer of normalcy. "Marylanders should go to work or go to school as they normally do," he <a href="https://www.baltimoresun.com/coronavirus/bs-hs-coronavirus-wrap-up-20200306-ipbh7t5r4zhxpidx3kgeiq3seu-story.html" class="graph-link">said March 5</a>.</p><br><br>
-
-<!-- Begin tweet embed -->
-<blockquote class="twitter-tweet" tw-align-center><p lang="en" dir="ltr">So last year 37,000 Americans died from the common Flu. It averages between 27,000 and 70,000 per year. Nothing is shut down, life &amp; the economy go on. At this moment there are 546 confirmed cases of CoronaVirus, with 22 deaths. Think about that!</p>&mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/1237027356314869761?ref_src=twsrc%5Etfw">March 9, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br><br> <!-- End tweet embed -->
-
-<!-- Continue section 3 -->
-<p class="summary">But as reported coronavirus cases in the Washington metropolitan area began to <a href="https://www.washingtonpost.com/local/covid-19-patients-dc-maryland-virginia/2020/03/13/9b2c4180-6476-11ea-845d-e35b0234b136_story.html" class="graph-link">double in consecutive 48-hour periods</a>, and a Prince George's County man became the first known case of "community transmission" in the state March 12, Maryland's officials began considering more aggressive containment measures.<br><br>
-On March 16, Hogan issued <a href="https://www.baltimoresun.com/coronavirus/bs-md-hogan-coronavirus-actions-20200316-lnp646cuxnbbxo4ftha6tmvo4m-story.html?15843718770563#icb-arc-story-id" class="graph-link">a new executive order</a> that would force bars, restaurants, movie theaters and gyms to close indefinitely, beginning at 5 p.m. that day. Restaurants were still permitted to offer carryout and delivery services under the order. Essential services&mdash;which included grocery stores, pharmacies and banks&mdash;would remain open.<br><br>
-<a href="https://www.ucsf.edu/news/2020/01/416511/mysterious-coronavirus-spreads-infectious-disease-expert-explains-what-you" class="graph-link">Initial warnings</a> discussed the novel coronavirus as especially hazardous to the elderly and immunocompromised. But that messaging led to a cavalier attitude among young people, who <a href="https://twitter.com/RexChapman/status/1239661153044910090" class="graph-link">continued to flock to beaches</a> for spring break. In Maryland, however, individuals in their 40s and 50s have been the leading age categories for positive coronavirus cases.<br><br></p> <!-- End section 3 -->
-
-<!-- Third graphic -->
-<iframe title="Maryland coronavirus cases and deaths by age" aria-label="Column Chart" id="datawrapper-chart-rIBIh" src="//datawrapper.dwcdn.net/rIBIh/22/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="335"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
-</script><br><br>
-<!-- End third graphic -->
-
-<!-- Begin section 4 -->
-<p class="summary">As residents were increasingly encouraged to hunker down at home, industries throughout the state began <a href="https://www.bizjournals.com/washington/news/2020/03/19/mgm-national-harbor-lays-off-employees-amid.html" class="graph-link">laying off staff</a>, and <a href="https://www.washingtonpost.com/business/2020/03/19/unemployment-insurance-today-coronavirus/" class="graph-link">unemployment claims</a> started to soar.
-On March 19, as a 5-year-old Howard County girl became the state's <a href="https://www.baltimoresun.com/coronavirus/bs-md-hogan-coronavirus-update-20200319-r5uitksji5cojfxph2mqfk7fdi-story.html" class="graph-link">first child to test positive</a> for the coronavirus, Hogan issued a new executive order limiting the size of social getherings to no more than 10 people and directing the closure of shopping malls and amusement parks.<br><br>
-"Let me be very clear," Hogan said at a news conference in Annapolis that day. "If you are engaged in this type of activity [large social gatherings], you are in violation of state law and you are endangering the lives of your fellow Marylanders."<br><br>
-Prior to adjourning three weeks ahead of schedule, the General Assembly passed a <a href="http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB1080?ys=2020RS" class="graph-link">bill</a> extending unemployment benefits to individuals under quarantine or whose employers have been forced to close during the coronavirus outbreak, amid a host of <a href="https://www.marylandmatters.org/2020/03/19/frenzied-lawmaking-and-tender-moments-in-tense-sessions-final-hours/" class="graph-link">rapid-fire legislation</a>.<br><br>
-Hogan <a href="https://governor.maryland.gov/wp-content/uploads/2020/03/Gatherings-THIRD-AMENDED-3.23.20.pdf" class="graph-link">amended and expanded</a> his March 19 executive order March 23, directing all non-essential businesses&mdash;according to the Department of Homeland Security's <a href="https://www.cisa.gov/sites/default/files/publications/CISA_Guidance_on_the_Essential_Critical_Infrastructure_Workforce_508C_0.pdf" class="graph-link">critical infrastructure workforce guidelines</a>&mdash;to close at 5 p.m. Restaurants were still able to fill carry out and delivery orders, and grocery stores, pharmacies, banks, and liquor stores were permitted to remain open.<br><br>
-He also announced an <a href="https://governor.maryland.gov/2020/03/23/governor-hogan-announces-closure-of-all-non-essential-businesses-175-million-relief-package-for-workers-and-small-businesses-affected-by-covid-19/" class="graph-link">aid package</a> of more than $175 million for businesses and workers adversely affected by the coronavirus. Highlights include a $75 million loan and $50 million grant fund for businesses, as well as a $7 million Layoff Aversion Fund that would allow employers to invest in telework equipment and sanitation services for essential workplaces.<br><br>
-Hogan issued a <a href="https://governor.maryland.gov/wp-content/uploads/2020/03/Gatherings-FOURTH-AMENDED-3.30.20.pdf" class="graph-link">stay-at-home order</a> effective March 30 at 8 p.m. The directive built on his preceding executive orders on social distancing, this time imposing up to one year of imprisonment or a $5,000 fine&mdash;or both&mdash;for individuals found outside their homes for non-essential purposes.<br><br>
-Maryland officials have confirmed 302 deaths linked to COVID-19 as of April 14 at 10 a.m. The state also began reporting figures for confirmed coronavirus cases and deaths by race that day, which show African-Americans affected by the disease at higher rates than other racial groups.</p><br><br>
-<!--End section 4 -->
-
-<!-- Fourth graphic -->
-<iframe title="Confirmed covid-19 cases and deaths in Maryland by race" aria-label="Column Chart" id="datawrapper-chart-m6vqz" src="//datawrapper.dwcdn.net/m6vqz/8/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="414"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
-</script><br><br>
-<!-- End fourth graphic -->
-
-<!-- Begin outro -->
-<p class="outro">
-<i><span style="text-shadow: 1px 1px black;">This page will be updated to reflect newly reported cases of coronavirus in the state per day.<br><br>
-As the novel coronavirus continues to dramatically impact daily life for Marylanders, this page will be updated to accurately reflect numbers of active cases in the state, include testimony from residents, and track the virus' overall course and progression.<br><br>
-If you are a Maryland resident whose life and livelihood have been substantially impacted by the coronavirus pandemic and would like to share your story, email the author at</span> <a href="mailto:heliocentricnonchalance@gmail.com" id="outro-link">heliocentricnonchalance@gmail.com</a>.</i><br><br></p>
-<div class="posts" div id=post10>
-</div><!-- End outro -->
-
-<!-- Begin bottom page nav -->
-<div class="end-links">
-<div class="headline" style="display: none;">See more entries</div>
-<div class="pagination" style="display: none;">
-<div class="page-link-container" style="display: none;">
-<a href="https://halas92.github.io/JOUR-689F-Designs/class-blog.html" class="nav-arrow"><i class="fas fa-arrow-left"></i></a>
-<p class="page-link-subtitle"><a href="https://halas92.github.io/JOUR-689F-Designs/class-blog.html" class="page-link-aux">PREV</a></p>
+<!-- Begin Hero Container-->
+<div class="hero-container" div id="hero-home">
+<div class="hero-intro" div id="hero1">
+<p class="title" p id="hero-title"><a href="#hero-about">Horus Alas</a></p>
+<p class="subtitle" p id="hero-sub"> <a href="https://halas92.github.io/Portfolio/reporting.html"><span style="color: rgb(33, 67, 138);">Writer</span> | <span style="color: #21438a;"> Reporter</span></a> | <a href="https://halas92.github.io/Portfolio/design.html"><span style="color: #21438a;">Designer</span></a></p>
+<div class="icon-links">
+<a href="#hero-reporting" a class="arrow-next"><i class="fas fa-chevron-circle-right"></i></a><br>
+<a href="#hero-reporting" a class="icon-sub-link"><p class="icon-subtitle">NEXT</p></a>
 </div>
-<a href="#" class="page-links" id="current-page">1</a>
-<a href="https://halas92.github.io/JOUR-689F-Designs/class-blog-2.html" class="page-links">2</a>
-<div class="page-link-container">
-<a href="https://halas92.github.io/JOUR-689F-Designs/class-blog-2.html" class="nav-arrow"><i class="fas fa-arrow-right"></i></a>
-<p class="page-link-subtitle"><a href="https://halas92.github.io/JOUR-689F-Designs/class-blog-2.html" class="page-link-aux">NEXT</a></p>
 </div>
+<p class="hero-text">Horus Alas is a reporter and digital designer based near Washington, D.C.</p>
+<p class="hero-footer">WASHINGTON - A view of the U.S. Capitol Building from 555 Pennsylvania Ave. NW. Photo and design by Horus Alas. &copy; 2020 All rights reserved.</p>
+</div>
+<!--End Hero Container-->
+
+<!--Begin Reporting Container-->
+<div class="hero-container" div id="hero-reporting">
+<div class="hero-intro" div id="reporting-intro">
+<p class="title" p id="hero-title"><a href="#hero-about">Horus Alas</a></p>
+<p class="subtitle" p id="hero-sub"> <a href="https://halas92.github.io/Portfolio/reporting.html"><span style="color: rgb(33, 67, 138);">Writer</span> | <span style="color: #21438a;"> Reporter</span></a> | <a href="https://halas92.github.io/Portfolio/design.html">Designer</a></p>
+<div class="icon-links">
+<a href="#hero-home" a class="arrow-previous"><i class="fas fa-chevron-circle-left"></i></a><br>
+<a href="#hero-home" a class="icon-sub-link"><p class="icon-subtitle">PREV</p></a>
 </div>
 <div class="icon-links">
-<a class="nav-arrow" href="#"><i class="fas fa-arrow-up"></i></a>
-<a class="icon-sub-link" href="#"><p class="icon-subtitle">TOP</p></a>
+<a href="#hero-design" a class="arrow-next"><i class="fas fa-chevron-circle-right"></i></a>
+<a href="#hero-design" a class="icon-sub-link"><p class="icon-subtitle">NEXT</p></a>
 </div>
-</div> <!--End bottom page nav -->
+</div>
+<p class="hero-text" p id="reporting-text">Horus has covered the Supreme Court, Maryland's Congressional delegation, and the 2019 impeachment investigation. Read his clips <a href="https://halas92.github.io/Portfolio/reporting.html" a id="reporting-link">here.</a></p>
+<!--Begin reporting clips-->
+<div class="clips-container" div id="reporting-clips">
+<div class="stories" div id="story1">
+<p class="story-headline" p id="headline1"><a href="https://cnsmaryland.org/2019/12/12/steny-hoyer-sees-experience-as-his-advantage/" a class="headline-links">Steny Hoyer sees experience as his advantage</a></p>
+<a href="https://cnsmaryland.org/2019/12/12/steny-hoyer-sees-experience-as-his-advantage/"><img src="images/Hoyer1.jpg" img class="story-photos"></a>
+<p class="byline">Dec. 12, 2019 &bull; By Horus Alas</p>
+<p class="story-intro">GREENBELT, Maryland – House Majority Leader Steny Hoyer, D-Mechanicsville, doesn’t seem especially concerned about his reelection next year.</p>
+</div>
+<div class="stories" div id="story2">
+<p class="story-headline" p id="headline2"><a href="https://cnsmaryland.org/2019/11/21/former-adviser-tells-impeachment-inquiry-trump-envoy-was-on-domestic-political-errand/" a class="headline-links">Former adviser tells impeachment inquiry Trump envoy was on ‘domestic political errand’</a></p>
+<a href="https://cnsmaryland.org/2019/11/21/former-adviser-tells-impeachment-inquiry-trump-envoy-was-on-domestic-political-errand/"><img src="images/hearing1.jpg" img class="story-photos"></a>
+<p class="byline">Nov. 21, 2019 &bull; By Horus Alas</p>
+<p class="story-intro">WASHINGTON – Former National Security Council Russia expert Fiona Hill and diplomat David Holmes testified in what may be the final public impeachment hearing Thursday, reinforcing previous witnesses’ assertions that President Donald Trump directly linked a White House meeting and military aid to Ukrainian investigations into former Vice President Joe Biden and the 2016 election.</p>
+</div>
+<div class="stories" div id="story3">
+<p class="story-headline" p id="headline3"><a href="https://cnsmaryland.org/2019/11/08/briana-urbinas-pitch-to-marylands-5th-congressional-district-go-younger/" a class="headline-links">Briana Urbina’s pitch to Maryland’s 5th Congressional District: go younger</a></p>
+<a href="https://cnsmaryland.org/2019/11/08/briana-urbinas-pitch-to-marylands-5th-congressional-district-go-younger/"><img src="images/urbina.jpg" img class="story-photos"></a>
+<p class="byline">Nov. 8, 2019 &bull; By Horus Alas</p>
+<p class="story-intro">BOWIE, Maryland – Briana Urbina and her campaign staff marched through rows of two-story homes with red brick and vinyl siding exteriors as the sun inched closer to the horizon on an evening earlier this month. Red and brown leaves crunched beneath their feet, echoing along tree-lined sidewalks.</p>
+</div>
+<div class="stories" div id="story4">
+<p class="story-headline" p id="headline4"><a href="https://cnsmaryland.org/2019/10/31/at-brookings-talk-van-hollen-calls-for-quiet-diplomacy-strategic-partnerships/" a class="headline-links">At Brookings talk, Van Hollen calls for “quiet diplomacy,” strategic partnerships</p>
+<a href="https://cnsmaryland.org/2019/10/31/at-brookings-talk-van-hollen-calls-for-quiet-diplomacy-strategic-partnerships/"><img src="images/van-hollen.jpg" img class="story-photos"></a>
+<p class="byline">Oct. 31, 2019 &bull; By Horus Alas</p>
+<p class="story-intro">WASHINGTON – Sen. Chris Van Hollen, D-Maryland, criticized what he called the Trump administration’s isolationist foreign policy and called for greater collaboration with American allies in a discussion on defense and international affairs at the Brookings Institution Thursday.</p>
+</div>
+<!--End reporting clips-->
+</div>
+<p class="hero-footer" p id="reporting-footer">WASHINGTON - The House Intelligence Committee's final public hearing in the impeachment investigation into President Donald Trump Nov. 21, 2019. Photo and design by Horus Alas.</p>
+</div>
+<!--End Reporting Container-->
 
-</div><!--end container-->
+<!--Begin Design Container-->
+<div class="hero-container" div id="hero-design">
+<div class="hero-intro" div id="design-intro">
+<p class="title" p id="hero-title"><a href="#hero-about">Horus Alas</a></p>
+<p class="subtitle" p id="hero-sub"><a href="https://halas92.github.io/Portfolio/reporting.html"> Writer | Reporter</a> | <a href="https://halas92.github.io/Portfolio/design.html"><span style="color: #21438a;">Designer<span></a></p>
+<div class="icon-links">
+<a href="#hero-reporting" a class="arrow-previous"><i class="fas fa-chevron-circle-left"></i></a><br>
+<a href="#hero-reporting" a class="icon-sub-link"><p class="icon-subtitle">PREV</p></a>
+</div>
+<div class="icon-links">
+<a href="#hero-about" a class="arrow-next"><i class="fas fa-chevron-circle-right"></i></a><br>
+<a href="#hero-about" a class="icon-sub-link"><p class="icon-subtitle">NEXT</p></a>
+</div>
+</div>
+<p class="hero-text" p id="design-text">Horus' digital designs include journalistic stories with interactive graphics, product demos, a New York Times Style section mockup, and more. View examples of his design work <a href="https://halas92.github.io/Portfolio/design.html" a id="design-link">here.</a></p>
+<!--Begin design clips-->
+<div class="clips-container" div id="design-clips">
+<div class="digital" div id="digital1">
+<p class="story-headline" p id="d-headline1"><a href="https://halas92.github.io/JOUR-689F-Designs/class-blog.html" a class="headline-links">Odysseys in Craft and Magic: Notes from feature writing at the University of Maryland</a></p>
+<a href="https://halas92.github.io/JOUR-689F-Designs/class-blog.html"><img src="images/blog.jpg" img class="story-photos"></a>
+<p class="byline">Dec. 8, 2019 &bull; By Horus Alas</p>
+<p class="story-intro">Created a running blog to host notes, stories, and assignments from students at the University of Maryland's JOUR 371/689F: Feature Writing class.</p>
+</div>
+<div class="digital" div id="digital2">
+<p class="story-headline" p id="d-headline2"><a href="https://halas92.github.io/JOUR-689F-Designs/index.html" a class="headline-links">Style - The New York Times</a></p>
+<a href="https://halas92.github.io/JOUR-689F-Designs/index.html"><img src="images/nyt-style.jpg" img class="story-photos"></a>
+<p class="byline">Oct. 21, 2019 &bull; By Horus Alas</p>
+<p class="story-intro">Created a digital layout of a landing page intended to look like the New York Times' Style section as an assignment for my Feature Writing class at Maryland.</p>
+</div>
+<div class="digital" div id="digital3">
+<p class="story-headline" p id="d-headline3"><a href="https://halas92.github.io/Smart-Search/index.html" a class="headline-links">Smart Search - Don't stress. Let journalism jobs come to you.</a></p>
+<a href="https://halas92.github.io/Smart-Search/index.html"><img src="images/smart-search.jpg" img class="story-photos"></a>
+<p class="byline">May 14, 2019 &bull; By Horus Alas</p>
+<p class="story-intro">Created a digital landing page for a journalism job-finding app, Smart Search. App designed by two colleagues and me for our JOUR 654: Advanced Interactive Multimedia Storytelling class at Maryland in May 2019.</p>
+</div>
+<div class="digital" div id="digital4">
+<p class="story-headline" p id="d-headline4"><a href="https://halas92.github.io/Horus-Alas-Jour652/final-story-project/index.html" a class="headline-links">Pedestrian safety, Prince George's County and College Park</a></p>
+<a href="https://halas92.github.io/Horus-Alas-Jour652/final-story-project/index.html"><img src="images/pedestrian-safety.jpg" img class="story-photos"></a>
+<p class="byline">Dec. 10, 2018 &bull; By Horus Alas</p>
+<p class="story-intro">Reported, wrote and digitally designed a story on trends in pedestrian transit fatalities in College Park and Prince George's County, Maryland.</p>
+</div>
+</div>
+<!--End design clips-->
+<p class="hero-footer" p id="design-footer">WASHINGTON - Crowds wait outside the U.S. Supreme Court before oral arguments in the "D.C. sniper" case <i>Mathena v. Malvo</i> Oct. 16, 2019. Photo and design by Horus Alas.</p>
+</div>
+<!--End Design Container-->
 
-<!-- Begin footer -->
-<div id=footer><div id="footer-text"><br>Created by Horus Alas for independent professional use.<br><br>
+<!--Begin About Container-->
+<div class="hero-container" div id="hero-about">
+<div class="hero-intro" div id="about-intro">
+<p class="title" p id="hero-title"><a href="#hero-about"><span style="color: #21438a;">Horus Alas</span></a></p>
+<p class="subtitle" p id="hero-sub"><a href="https://halas92.github.io/Portfolio/reporting.html"> Writer | Reporter</a> | <a href="https://halas92.github.io/Portfolio/design.html">Designer</a></p>
+<div class="icon-links">
+<a href="#hero-design" a class="arrow-previous"><i class="fas fa-chevron-circle-left"></i></a>
+<a href="#hero-design" a class="icon-sub-link"><p class="icon-subtitle">PREV</p></a>
+</div>
+<div class="icon-links">
+<a href="tel:2407840286" a class="contact-links" target="_blank"><i class="fas fa-mobile-alt"></i></a>
+<a href="tel:2407840286" a class="icon-sub-link" target="_blank"><p class="icon-subtitle">PHONE</p></a>
+</div>
+<div class="icon-links">
+<a href="mailto:heliocentricnonchalance@gmail.com" a class="contact-links" target="_blank"><i class="far fa-envelope"></i></a>
+<a href="mailto:heliocentricnonchalance@gmail.com" a class="icon-sub-link" target="_blank"><p class="icon-subtitle">EMAIL</p></a>
+</div>
+<div class="icon-links" style="margin-left: 8px;">
+<a href="https://www.linkedin.com/in/heliocentricnonchalance/" a class="contact-links" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+<a href="https://www.linkedin.com/in/heliocentricnonchalance/" a class="icon-sub-link" target="_blank"><p class="icon-subtitle">LINKEDIN</p></a>
+</div>
+</div>
+<div id="bio"><img src="images/portrait.jpg" width=100% div id="portrait-photo">
+<div id="bio-text">
+<p class="first-letter">H</p><p class="first-line">orus Alas is a writer, reporter, copyeditor and digital designer</p>
+<p class="summary" style="display: inline;">based in Silver Spring, Maryland.</p><br><br>
+<p class="summary">His reporting has covered Maryland's congressional delegation, federal appropriations, impeachment, and the Supreme Court. Horus also thrives reporting on feature and enterprise stories highlighting the human element within larger events.<br><br>
+As a designer, he engages the user with streamlined features and interactive graphics that propel a story. Horus' pages provide a crisp backdrop for journalistic stories and product demos.<br><br>
+Horus has edited web content for NASA's Glenn Research Center in Cleveland, Ohio, and written for the Baltimore Brew, Capital News Service, the Diamondback and the Frederick News-Post. He's undertaken an investigative project on Maryland's Eastern Shore for Maryland Matters.<br><br>
+Horus completed a master's degree in journalism at the University of Maryland in December 2019. He previously earned a bachelor's degree in philosophy from the same university, and is a native Spanish speaker with backgrounds in Latin, French and Italian. View his resume <a href="resume.pdf" a id="resume-link">here</a>.</p>
+</div>
+</div>
+<!--Begin footer-->
+<div id=footer><div id="footer-text"><br>Created by Horus Alas for professional use.<br><br>
 &copy; 2020 <a href="https://halas92.github.io/Portfolio/" id="footer-link">Horus Alas.</a> All rights reserved.</div>
-<a id="footer-logo" href="https://halas92.github.io/Portfolio/design.html">H |</a></div> <!-- End footer -->
+<a id="footer-logo" href="https://halas92.github.io/Portfolio/design.html">H |</a></div>
+<!--End footer-->
+</div>
+<!--End About Container-->
+
+</div><!--end container>
 
 </body>
 </html>
