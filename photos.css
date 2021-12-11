@@ -1,0 +1,31 @@
+/*Responsive styling for large, desktop viewports*/
+@media only screen and (min-width: 600px) {
+}
+
+/*Responsive styling for medium-width viewports*/
+@media only screen and (max-width: 600px) {
+}
+
+/*Responsive styling for mobile and small-width viewports*/
+@media only screen and (max-width: 400px) {
+}
+
+/*General characteristics*/
+a:hover {text-decoration: underline; color: #1f317a;}
+a {color: black;}
+html {scroll-behavior: smooth;}
+body {overflow-x: scroll; width: 100%;}
+body::-webkit-scrollbar {display: none;}
+.container {width: 100%; max-width: 100%;; margin: 0 auto; overflow-x: scroll; overflow-y: hidden; white-space: nowrap; padding-left: 0px; padding-right: 0px;}
+
+.item, .item.active {display: inline-block;
+position: relative;
+width: 100%;
+height: 100vh;
+background-repeat: no-repeat;
+margin: 0 auto;
+background-position: center;
+background-size: cover;
+max-width: 100%;}
+
+#slide1 {background-image: url(images/cadets.jpg)}
